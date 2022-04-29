@@ -1,0 +1,3 @@
+﻿  Pqueue.cpp
+C:\Users\gurba\source\repos\Pqueue\Pqueue\PQueue.h(47): warning C4715: PQueue<JobRequest>::del: значение возвращается не при всех путях выполнения
+  Pqueue.vcxproj -> C:\Users\gurba\source\repos\Pqueue\x64\Debug\Pqueue.exe
