@@ -1,0 +1,7 @@
+﻿  Deque.cpp
+C:\Users\gurba\source\repos\lab11\lab11\Deque.h(3,10): warning C4067: непредвиденные лексемы за директивой препроцессора, требуется newline
+  lab11.cpp
+C:\Users\gurba\source\repos\lab11\lab11\Deque.h(3,10): warning C4067: непредвиденные лексемы за директивой препроцессора, требуется newline
+  Создание кода...
+C:\Users\gurba\source\repos\lab11\lab11\Deque.h(54): warning C4715: Deque<int>::popBack: значение возвращается не при всех путях выполнения
+  lab11.vcxproj -> C:\Users\gurba\source\repos\lab11\x64\Debug\lab11.exe
