@@ -1,21 +1,33 @@
 #pragma once
 
-template <typename T> class Node		// Class Node(linked list)
-{
+template <typename T> class Node {		// Class Node(linked list)
+	
 	Node* next;
 	T value;
+
 public:
+
 	Node() {			// default constructor
-		next = nullptr;
+		this->next = nullptr;
 	}
 
 	Node(const Node& orig) {		// constructor with params
-		next = orig.next;
-		value = orig.value;
+		this->next = orig.next;
+		this->value = orig.value;
+	}
+
+	bool hasNext() {
+		if (this->next != nullptr)
+			return true;
+		else
+			return false;
 	}
 
 	Node* getNext(){			// returns pointer on next node
-		return next;
+		if (this->next != nullptr)
+			return this->next;
+		else
+			return nullptr;
 	}
 
 	void setNext(Node* newNext) {			// sets pointer on next node
