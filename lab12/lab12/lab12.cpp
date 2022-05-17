@@ -38,4 +38,19 @@ int main()
 		tmp->setNext(nullptr);
 		delete current;
 	}
+
+
+	//Linked list
+
+
+
+
+
+
+
+
+
+
+
+
 }
